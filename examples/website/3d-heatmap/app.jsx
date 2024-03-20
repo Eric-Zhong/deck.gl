@@ -86,7 +86,7 @@ export default function App({
       colorRange,
       coverage,
       data,
-      elevationRange: [0, 3000],
+      elevationRange: [0, 1000],
       elevationScale: data && data.length ? 50 : 0,
       extruded: true,
       getPosition: d => d,
@@ -94,7 +94,6 @@ export default function App({
       radius,
       upperPercentile,
       material,
-
       transitions: {
         elevationScale: 3000
       }
